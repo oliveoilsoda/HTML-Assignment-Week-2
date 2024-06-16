@@ -1,0 +1,23 @@
+/* Background */
+html {
+background: linear-gradient(180deg, #acff30, #fff130, #fff130, #fff130, #b35733);
+}
+
+/* Headers */
+h1, h2 {
+    text-align: center;
+  }
+
+/* Email */
+#email {
+    text-align: center;
+    font-size: 27px;
+    filter:drop-shadow(5px 5px 3px brown)
+}
+#videos {
+    font-size: 25px;
+    text-align: center;
+    a:hover {
+        background-color: green;
+    }
+}

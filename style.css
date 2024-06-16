@@ -1,0 +1,66 @@
+/* Background */
+html {
+background: linear-gradient(180deg, #acff30, #fff130, #fff130, #fff130, #b35733);
+}
+
+/* Headers */
+h1, h2 {
+    text-align: center;
+  }
+
+/* Intro */
+#intro {
+    margin: 2rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Probiscus Images */
+img {
+    margin:1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* Unordered List*/
+#Unlist {
+li:nth-child(odd) {
+    background-color: #b35733;
+    color:rgb(245, 187, 70)
+}
+border: 3px dotted #b35733;
+border-radius: 10px;
+}
+
+/* Ordered List*/
+#Orlist {
+    li:nth-child(even) {
+        background-color: #acff30;
+        color:#965629
+    }
+    border: 3px dotted #b35733;
+    border-radius: 10px;
+}
+
+/* Table */
+table {
+    border: 1px solid black
+
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+/* Links */
+#links{
+    a:hover {
+        background-color: yellow;
+    }
+    font-size: 20px;
+}
